@@ -7,6 +7,12 @@
 
 # Task 1
 
+Setup Cluster and Basic YAML files
+```md
+gsutil cp gs://spls/gsp335/gsp335.zip .
+unzip gsp335.zip
+```
+
 Replace <b>[Cluster Name]</b> with <b>Cluster Name</b> from your project.
 
 ```md

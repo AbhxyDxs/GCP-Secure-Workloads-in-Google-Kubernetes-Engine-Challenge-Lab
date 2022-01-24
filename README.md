@@ -81,6 +81,12 @@ kubectl create clusterrolebinding cluster-admin-binding \
 Open Code Editor and edit these files <br>
 * <b>issuer.yaml</b> and set the email address to the email address of your wordpress service account. 
 * <b>ingress.yaml</b> and set HOST_NAME with your DNS name
+    
+Apply these YAML files
+```md
+kubectl apply -f issuer.yaml
+kubectl apply -f ingress.yaml
+```    
   
 # Task 4
 
